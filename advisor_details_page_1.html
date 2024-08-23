@@ -262,7 +262,10 @@
 
 			<div class="container p-4">
 				<h5 class="">Send us a message</h5>
-				<form action="/action_page.php">
+				<form action="https://api.web3forms.com/submit" method="POST">
+				
+				<input type="hidden" name="access_key" value="e8436fd6-0381-4d77-bcb9-fefe48a73f23">
+				
 				  <div class="mb-3 mt-3">
 					<label for="name" class="form-label">Name:</label>
 					<input type="text" class="form-control" id="name" placeholder="Enter name" name="Name">
@@ -275,12 +278,20 @@
 					<label for="mobile" class="form-label">Mobile:</label>
 					<input type="text" class="form-control" id="mobile" placeholder="Enter mobile no" name="mobile">
 				  </div>
+				  <div class="mb-3 mt-3">
+					<label for="message" class="form-label">Message:</label>
+					<input type="text" class="form-control" id="message" placeholder="Message" name="message">
+				  </div>
 				  <button type="submit" class="btn btn-primary">Send Message</button>
+
+				<!-- Honeypot Spam Protection -->
+				<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
 				</form>
 				<div class="container p-4">
 				</div>
 			</div>
-		
+
 		</div>
 
 	</div>
