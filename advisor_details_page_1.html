@@ -57,7 +57,7 @@
 	<h5 class="">Portfolio Features</h5>
 
 			  <div class="table-responsive">
-				<table class="table table-success table-bordered table-striped">
+				<table class="table table-bordered border-info">
 					<tr>
 					  <td>Inception Date</td>
 					  <td>Jan 1st 2022 (4 yrs, 2 m)</td>
@@ -66,18 +66,6 @@
 					  <td>Portfolio Type</td>
 					  <td>Multicap</td>
 					</tr>
-					<tr>
-					  <td>Portfolio Beta</td>
-					  <td>0.85(Indicates risk factor is 15% lesser than NIFTY 50)</td>
-					</tr>
-					<tr>
-					  <td>Avg Market Cap</td>
-					  <td>Rs 4000 Cr</td>
-					</tr>
-					<tr>
-					  <td>Avg Volume</td>
-					  <td>Rs 200 Cr</td>
-					</tr>
 				</table>
 			  </div>
 
@@ -85,7 +73,7 @@
 	</div>
 	<h5 class="">Portfolio Returns</h5>
 			  <div class="table-responsive">
-				<table class="table table-success table-bordered table-striped">
+				<table class="table table-bordered border-info">
 					<tr>
 					  <td>2%</td>
 					  <td>2%</td>
@@ -111,7 +99,19 @@
 	</div>
 <h5 class="">Transaction Analysis</h5>
 			  <div class="table-responsive">
-				<table class="table table-success table-bordered table-striped">
+				<table class="table table-bordered border-info">
+					<tr>
+					  <td>Portfolio Beta</td>
+					  <td>0.85(Indicates risk factor is 15% lesser than NIFTY 50)</td>
+					</tr>
+					<tr>
+					  <td>Avg Market Cap</td>
+					  <td>Rs 4000 Cr</td>
+					</tr>
+					<tr>
+					  <td>Avg Trade Volume</td>
+					  <td>Rs 200 Cr</td>
+					</tr>
 					<tr>
 					  <td>No of buy transactions</td>
 					  <td>100</td>
@@ -143,9 +143,50 @@
 				</table>
 			  </div>
 	<p class="">*Transactions considered since 1st April 2023 till 31Jul 2024</p>
-	<h5 class="">Transactions</h5>
 
 </div>
+
+<div class="container p-3">
+</div>
+
+<div class="container">
+				<h4 class="">Transactions</h4>
+			  <div class="table-responsive">
+				<table class="table table-bordered border-info">
+
+					<thead class="">
+					  <tr>
+						<th>Date</th>
+						<th>Stock Number (*Name Ommitted)</th>
+						<th>Transaction Type</th>
+						<th>Amount</th>
+					  </tr>
+					</thead>
+
+					<tr>
+					  <td>1st Jul, 2023</td>
+					  <td>Stock1</td>
+					  <td>Buy</td>
+					  <td>1,00,000</td>
+					</tr>
+					<tr>
+					  <td>12th Nov, 2023</td>
+					  <td>Stock2</td>
+					  <td>Buy</td>
+					  <td>1,00,000</td>
+					</tr>
+					<tr>
+					  <td>8th Dec, 2023</td>
+					  <td>Stock1</td>
+					  <td>Sale 50%</td>
+					  <td>75,000</td>
+					</tr>
+				</table>
+			  </div>
+
+
+</div>
+
 
 <!-- Padding -->
 <div class="container p-5">
@@ -153,37 +194,91 @@
 	
 <!-- Contact -->
 <div id="contact" class="container">
-<h1 class="display-6">Contact</h1>
 
-<h5 class="text-primary  text-muted">My Finance 11, Bangalore 560103</h5>
-
-<p> Email us to <span class="text-primary">info@myfinance11.com</span> or send us a message here: </p>
-
+<!-- Padding -->
+<div class="container p-2">
+</div>
 
 
-<form action="/action_page.php">
-  <div class="mb-3 mt-3">
-    <label for="name" class="form-label">Name:</label>
-    <input type="text" class="form-control" id="name" placeholder="Enter name" name="Name">
-  </div>
-  <div class="mb-3 mt-3">
-    <label for="email" class="form-label">Email:</label>
-    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-  </div>
-  <div class="mb-3 mt-3">
-    <label for="mobile" class="form-label">Mobile:</label>
-    <input type="text" class="form-control" id="mobile" placeholder="Enter mobile no" name="mobile">
-  </div>
-  <button type="submit" class="btn btn-primary">Send Message</button>
-</form>
+<div class="container card">
 
+	<div class="row justify-content-center">
+
+		<div class="container col-4 bg-info">
+
+				<div class="container p-4">
+
+					<h4 class="">Lets get in touch</h4>
+
+					<div class="container p-3">
+					</div>
+
+					<h5 class="">My Finance 11</h5>
+
+
+					<div class="row">
+						<div class="container col">
+							<h6 class="">Address: </h6>
+						</div>
+						<div class="container col">
+							<p class="text-end">Bangalore, India</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="container col">
+							<h6 class="">Email: </h6>
+						</div>
+						<div class="container col">
+							<p class="text-end">info@myfinance11.com</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="container col">
+							<h6 class="">Phone: </h6>
+						</div>
+						<div class="container col">
+							<p class="text-end">1234567890</p>
+						</div>
+					</div>
+
+			</div>
+		</div>
+
+		<div class="container col">
+
+			<div class="container p-4">
+				<h5 class="">Send us a message</h5>
+				<form action="/action_page.php">
+				  <div class="mb-3 mt-3">
+					<label for="name" class="form-label">Name:</label>
+					<input type="text" class="form-control" id="name" placeholder="Enter name" name="Name">
+				  </div>
+				  <div class="mb-3 mt-3">
+					<label for="email" class="form-label">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				  </div>
+				  <div class="mb-3 mt-3">
+					<label for="mobile" class="form-label">Mobile:</label>
+					<input type="text" class="form-control" id="mobile" placeholder="Enter mobile no" name="mobile">
+				  </div>
+				  <button type="submit" class="btn btn-primary">Send Message</button>
+				</form>
+				<div class="container p-4">
+				</div>
+			</div>
+		
+		</div>
+
+	</div>
+</div>
 
 	
 <!-- Padding -->
 <div class="container p-5">
 </div>
 	
-
 
 </div>
 
